@@ -1,0 +1,93 @@
+title:            Post Mortem Stories
+description:      
+
+# put your disqus here
+disqus_shortname: light-weight-coding.disqus.com
+reading_time:     true # if true, shows the estimated reading time for a post
+words_per_minute: 200
+logo:             images/lwc.png # logo visible in the topbar
+excerpt_separator: <!--more-->
+# Your site's domain goes here (eg: //mmistakes.github.io, http://mademistakes.com, etc)
+# When testing locally leave blank or use http://localhost:4000
+
+url: https://postmortemstories.tk
+
+# draw your top menu here
+# each item must have a title and a url.
+#   To list post categories. use type: 'categories'
+#   To create sub categories. add a submenu item
+# See the example
+menu:
+  - title: 'Stories'
+    url: '/'
+  - title: 'Tags'
+    url: '/tags'
+  - title: 'Why'
+    url: '/why'
+
+# Owner/author information
+owner:
+  name:           Kyle Carter
+  site:           http://postmortemstories.tk
+  avatar:         images/avatar.jpg
+  bio:            "I am Kyle. I am a software engineer and junior software architect. I love all things software engineering
+  related and love delivering value to the users of my software."
+  email:          kylec32@gmail.com
+  # Twitter nick for use in Twitter cards and follow button.
+  twitter: kylecart # if no twitter in this config, the twitter follow button will be removed
+  # GitHub nick for use in follow button in author block.
+  github: kylec32
+
+# Twitter account associated with the site if different from owner/author twitter account.
+# Used in Twitter cards.
+twitter:
+
+# Social networking links used in author block underneath posts. Update and remove as you like.
+social:
+  - title: "github"
+    url: "https://github.com/kylec32"
+  - title: "linkedin"
+    url: "https://www.linkedin.com/in/kyle-carter-4078522b/"
+
+# Background image to be tiled on all pages
+background:
+
+# Analytics and webmaster tools stuff goes here
+google_analytics: UA-116388214-1
+google_verify: 
+# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
+bing_verify: 
+
+# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone:    America/Denver
+locale:      en_US
+future:      true
+highlighter: rouge
+markdown:    kramdown
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# https://github.com/mojombo/jekyll/wiki/Permalinks
+permalink:   /:categories/:title/
+
+# Amount of post to show on home page
+paginate: 5
+
+# if true, shows the floatting share buttons
+float_share: true
+
+# Octopress
+# Default extensions
+post_ext: md
+page_ext: md
+# Found in _templates/
+post_layout: post
+page_layout: page
+# Format titles with titlecase?
+titlecase: true
+
+include: [".htaccess"]
+exclude: ["demo/*", "lib", "config.rb", "Capfile", "config", "Gemfile", "Gemfile.lock", "README.md", "LICENSE", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules"]
+plugins: [jekyll-paginate, jekyll-sitemap]
+theme: neo-hpstr-jekyll-theme
