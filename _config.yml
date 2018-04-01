@@ -1,5 +1,5 @@
 title:            Post Mortem Stories
-description:      
+description:      Site that aggregates post mortem stories for around the web.
 
 # put your disqus here
 disqus_shortname: light-weight-coding.disqus.com
@@ -30,8 +30,7 @@ owner:
   name:           Kyle Carter
   site:           http://postmortemstories.tk
   avatar:         images/avatar.jpg
-  bio:            "I am Kyle. I am a software engineer and junior software architect. I love all things software engineering
-  related and love delivering value to the users of my software."
+  bio:            "Hello I am Kyle. I am a software architect and run the website [LightWeightCoding.tk](https://lightweightcoding.tk). I find the complexities of software interesting and like to understand what makes systems fail (or avoid failure)."
   email:          kylec32@gmail.com
   # Twitter nick for use in Twitter cards and follow button.
   twitter: kylecart # if no twitter in this config, the twitter follow button will be removed
@@ -56,7 +55,7 @@ background:
 google_analytics: UA-116388214-1
 google_verify: 
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-bing_verify: 
+bing_verify: B5B83C35502BE68B3353929DA8795D60
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    America/Denver
