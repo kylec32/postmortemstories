@@ -4,6 +4,8 @@ title: "Github DDoS Attack"
 description: "Explanation of What Happened During the March 1st 2018 Github DDoS Memcachd attack."
 tags: [github, cloudflare, ddos, memcached]
 comments: false
+author: Sam Kottler
+author_link: https://github.com/skottler
 ---
 
 _[Originally Posted On the GitHub Engineering Blog](https://githubengineering.com/ddos-incident-report/)_

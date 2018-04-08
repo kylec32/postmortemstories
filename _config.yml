@@ -5,7 +5,7 @@ description:      Site that aggregates post mortem stories for around the web.
 disqus_shortname: light-weight-coding.disqus.com
 reading_time:     true # if true, shows the estimated reading time for a post
 words_per_minute: 200
-logo:             images/lwc.png # logo visible in the topbar
+logo:             images/logo.png # logo visible in the topbar
 excerpt_separator: <!--more-->
 # Your site's domain goes here (eg: //mmistakes.github.io, http://mademistakes.com, etc)
 # When testing locally leave blank or use http://localhost:4000
@@ -30,7 +30,7 @@ owner:
   name:           Kyle Carter
   site:           http://postmortemstories.tk
   avatar:         images/avatar.jpg
-  bio:            "Hello I am Kyle. I am a software architect and run the website [LightWeightCoding.tk](https://lightweightcoding.tk). I find the complexities of software interesting and like to understand what makes systems fail (or avoid failure)."
+  bio:            "Hello I am Kyle. I am a software architect and run the website LightWeightCoding.tk. I find the complexities of software interesting and like to understand what makes systems fail (or avoid failure)."
   email:          kylec32@gmail.com
   # Twitter nick for use in Twitter cards and follow button.
   twitter: kylecart # if no twitter in this config, the twitter follow button will be removed

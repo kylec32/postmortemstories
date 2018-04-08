@@ -1,0 +1,19 @@
+<span class="author"><span class="fn">
+{% assign page_author = post.author ? post.author :  page.author ? page.author : site.owner.name %}
+{% assign page_author_link = post.author_link ? post.author_link : page.author_link ? page.author_link : "" %}
+{% if page.author_link or post.author_link %}
+    <a href="{{ page.author_link}}{{post.author_link}}">
+{% endif %}
+{% if post.author or page.author %}
+    <span class="guest">
+    {{ post.author }}{{ page.author }}
+    </span>
+{% else %}
+    <span class="vcard">
+    {{ site.owner.name }}
+    </span>
+{% endif %}
+{% if page.author_link or post.author_link %}
+    </a>
+{% endif %}
+</span></span>

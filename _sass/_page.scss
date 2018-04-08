@@ -102,6 +102,11 @@ body {
 			content: " by ";
 		}
 	}
+	.guest {
+		&:before {
+			content: " originally by ";
+		}
+	}
 	.tag {
 		display: inline-block;
 		margin: 4px;
